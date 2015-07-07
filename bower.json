@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-date",
+  "version": "0.0.0",
+  "authors": [
+    "JesterXL <jesse@jessewarden.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular-bootstrap": "~0.13.0",
+    "moment": "~2.10.3"
+  }
+}

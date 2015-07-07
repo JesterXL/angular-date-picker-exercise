@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>AngularJS Exercise</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+</head>
+<body ng-app="epicDates">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+    <!-- Add your additional scripts here -->
+    <script src="app.js"></script>
+    <div ng-controller="DateController">
+    	<datepicker ng-model="dt" min-date="minDate" show-weeks="true" custom-class="getDayClass(date, mode)"></datepicker>
+    	<p>&nbsp;</p>
+    	<h2>Current Date: {{dt | date}}</h2>
+    </div>
+
+</body>
+</html>
